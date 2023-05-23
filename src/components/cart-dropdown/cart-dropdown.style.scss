@@ -20,14 +20,14 @@
     height: 240px;
     display: flex;
     flex-direction: column;
-    overflow-y: auto;
+    overflow-y: scroll;
+  }
+
+  .cart-items::-webkit-scrollbar {
+    width: 10px;
   }
 
   button {
     margin-top: auto;
   }
-}
-
-.close {
-  display: none;
 }
